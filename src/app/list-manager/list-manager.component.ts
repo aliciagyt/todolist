@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   template: `
     <div class="todo-app">
       <h1>
-        {{ title }}
+        <img src="./assets/icon-60.png"> {{ title }}
       </h1>
       <todo-input (submit)="addItem($event)" class="todo-add"></todo-input>
       <ul>
@@ -19,7 +19,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./list-manager.component.css']
 })
 export class ListManagerComponent implements OnInit {
-  title = 'To-do List !';
+  title = 'To-do list libheros !';
   todolist: any;
 
   ngOnInit() {

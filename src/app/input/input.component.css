@@ -6,6 +6,7 @@
     border: solid 1px #dddddd;
     border-radius: 5px;
     flex-grow: 1;
+    min-width: 300px;
 }
   
 :host(:not([hidden])) {

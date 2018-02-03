@@ -3,12 +3,12 @@ import { Injectable } from '@angular/core';
 const storageName = 'aah_todo_list';
 
 const defaultList = [
-  { title: 'install NodeJS' },
-  { title: 'install Angular CLI' },
-  { title: 'create new app' },
-  { title: 'serve app' },
-  { title: 'develop app' },
-  { title: 'deploy app' },
+  { title: 'Faire venir des patients' },
+  { title: 'Faire payer des pros' },
+  { title: 'Faire chatter des pros' },
+  { title: 'Sauver des patients' },
+  { title: 'Rendre les bureaux cozy' },
+  { title: 'Mettre la team de bonne humeur' },
 ];
 
 @Injectable()

@@ -18,11 +18,11 @@
 }
 
 .btn-red {
-  background: red;
+  background: #0BBBEF;
 }
 
 .btn-red:hover {
-  background: darkred;
+  background: rgb(16, 121, 150);
 }
 
 .todo-complete {

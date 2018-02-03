@@ -23,16 +23,17 @@ ol, ul {
 }
 
 .btn {
-  background: lightseagreen;
-  color: #fff;
-  padding: 3px 10px;
+  background: #EA827D;
+  color: #ffffff;
+  padding: 5px 10px;
   margin: 0 0 0 3px;
   border: none;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   cursor: pointer;
   vertical-align: bottom;
+  font-weight: bold;
 }
 
 .btn:hover {
