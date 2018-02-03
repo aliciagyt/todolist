@@ -3,9 +3,10 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'todo-input',
   template: `
-    <input [value]='title' (keyup.enter)="changeTitle($event.target.value)" #inputElement>
-    <button class="btn" (click)="changeTitle(inputElement.value)">Save !</button>
-    <p>This title is {{ title }}</p>
+    <div>
+      <input class="todo-input" [value]='title' (keyup.enter)="changeTitle($event.target.value)" #inputElement>
+      <button class="btn" (click)="changeTitle(inputElement.value)">Save !</button>
+    </div>
   `,
   styleUrls: ['./input.component.css']
 })
