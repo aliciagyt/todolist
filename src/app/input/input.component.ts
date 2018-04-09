@@ -24,6 +24,7 @@ export class InputComponent implements OnInit {
 
   changeTitle(newTitle: string): void {
     this.submit.emit(newTitle);
+    this.title = '';
   }
 
 }
